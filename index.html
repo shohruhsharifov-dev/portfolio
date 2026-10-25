@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shohruh — Projects Portfolio</title>
+  <meta name="description" content="Minimalist professional portfolio of Shohruh, showcasing development projects and skills.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Google Fonts (Inter for a clean, modern look) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo / Name -->
+      <a href="#" class="nav-logo">Alex Morgan<span class="dot">.</span></a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Right Side Actions (Theme Toggle & Mobile Menu Switch) -->
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle theme" class="theme-btn">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon hidden">🌙</span>
+        </button>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="nav-toggle" aria-label="Toggle menu" class="mobile-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-container">
+        
+        <!-- Status Badge -->
+        <div class="status-badge">
+          <span class="status-dot"></span> Available for new projects
+        </div>
+
+        <!-- Headline & Subtitle -->
+        <h1 class="hero-title">
+          Building thoughtful digital experiences through code & design.
+        </h1>
+        
+        <p class="hero-subtitle">
+          Hi, I'm <strong class="highlight">Alex Morgan</strong> — a Full-Stack Developer & UI Designer focused on crafting clean, performant, and accessible web applications.
+        </p>
+
+        <!-- Call to Action Buttons -->
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header">
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">A collection of recent applications and tools I've built.</p>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <div class="project-image-placeholder">
+                <span>01 / E-Commerce Platform</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Full Stack</span>
+              <h3 class="project-title">Aura Storefront</h3>
+              <p class="project-description">
+                A minimalist e-commerce platform with real-time inventory management, secure checkout, and full responsive design.
+              </p>
+              <ul class="project-tags">
+                <li>JavaScript</li>
+                <li>CSS3</li>
+                <li>REST API</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Live Demo ↗
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link link-muted">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <div class="project-image-placeholder">
+                <span>02 / Productivity App</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">Web App</span>
+              <h3 class="project-title">Focus Flow Dashboard</h3>
+              <p class="project-description">
+                A streamlined task tracking application with customized Kanban boards, pomodoro timer, and progress analytics.
+              </p>
+              <ul class="project-tags">
+                <li>HTML5</li>
+                <li>CSS Grid</li>
+                <li>LocalStorage</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Live Demo ↗
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link link-muted">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="project-card">
+            <div class="project-image-wrapper">
+              <div class="project-image-placeholder">
+                <span>03 / Developer Tool</span>
+              </div>
+            </div>
+            <div class="project-content">
+              <span class="project-category">UI / Tooling</span>
+              <h3 class="project-title">DevPalette Generator</h3>
+              <p class="project-description">
+                An accessible color palette generator for UI designers and developers with built-in contrast ratio checking.
+              </p>
+              <ul class="project-tags">
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>Web API</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                  Live Demo ↗
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link link-muted">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container contact-container">
+        
+        <div class="contact-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-subtitle">
+            Whether you have a project in mind, a question, or just want to say hi — feel free to drop a message.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <a href="mailto:alex@example.com" class="email-link">
+            alex@example.com
+          </a>
+          
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">GitHub ↗</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn ↗</a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link">Twitter ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="copyright">
+        © <span id="year"></span> Alex Morgan. Designed & Built with HTML, CSS, and JS.
+      </p>
+    </div>
+  </footer>
+  
+  </main>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
