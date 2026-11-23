@@ -15,23 +15,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Plausible Analytics (skipped if localStorage opt-out is set) -->
-  <script>
-    (function () {
-      var isLocalHost =
-        location.hostname === "localhost" || location.hostname === "127.0.0.1";
-      var isOptedOut = localStorage.getItem("ignore_analytics") === "true";
-
-      if (isLocalHost || isOptedOut) {
-        return;
-      }
-
-      var script = document.createElement("script");
-      script.defer = true;
-      script.dataset.domain = "https://shohruhsharifov-dev.github.io/portfolio/"; // e.g. shohruh.dev
-      script.src = "https://plausible.io/js/script.js";
-      document.head.appendChild(script);
-    })();
-  </script>
+  <script data-goatcounter="https://shohruhsharifov-dev.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
 
 </head>
 <body>
