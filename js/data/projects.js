@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: "aura-storefront",
     category: "Embedded Software",
-    title: "Testing Automation",
+    title: "Sensor Data Acquisition",
     description: "Different sensors on two separate communication busses (I2C and Onewire) gather temperature data of the connected battery cell. The fused readings are packed to a CAN frame and sent to a management system for further processing, control and visualization. To decode the message on the other side and distinguish between the different sensors a CAN frame is designed with a specific structure to contain of the readingsand a unique identifier for the entire board. For this a programming interface is created to allow ID assignment for each sensor by the user.",
     features: [
       "Sensor data fusion and CAN bus communication for real-time monitoring",
@@ -44,7 +44,7 @@ export const projectsData = [
   {
     id: "ma",
     category: "Mathematical Optimization",
-    title: "Routing Optimization",
+    title: "Reliability Optimized Routing",
     description: "This project focuses on making wireless networks, that relay signals across multiple hops, more reliable when messages are short and must be sent quickly. First, for a single data stream, it finds the best way to divide transmission time across relay hops while picking the most reliable path—using smart shortcuts to drop weak routes early or local tweaks to handle large networks. Next, it expands this approach to multiple data streams sharing the same relays without talking over one another, balancing resources across all streams at once. Overall, coordinating path choices and transmission lengths together beats standard methods in simulations.",
     features: [
       "Optimized routing solution for a complex network of nodes",
